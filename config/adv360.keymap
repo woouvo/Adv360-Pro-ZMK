@@ -17,11 +17,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp ESCAPE    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4           &kp N5           &tog 3                                                     &mo 4      &kp NUMBER_6  &kp N7  &kp N8  &kp N9             &kp N0     &kp LEFT
-&kp TAB       &kp SEMICOLON  &kp PLUS      &kp COMMA             &kp Y                  &kp SLASH        &kp LA(GRAVE)                                              &none      &kp V         &kp W   &kp P   &kp DOUBLE_QUOTES  &kp SQT    &kp UP_ARROW
-&kp ESC       &kp A          &kp E         &kp O                 &kp I                  &mo 1            &none          &kp TAB        &kp SPACE      &kp G  &kp M  &kp MINUS  &mo 1         &kp S   &kp N   &kp R              &kp H      &kp DOWN
-&kp LEFT_WIN  &kp COLON      &kp DOLLAR    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION                                &kp ENTER      &kp D                    &kp J         &kp C   &kp B   &kp X              &kp K      &kp RIGHT
-&mo 4         &kp LCTRL      &kp LEFT_ALT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &kp U          &kp BACKSPACE  &kp EQUAL      &kp F  &kp T  &kp L                    &kp Z   &kp Q   &kp RIGHT_ALT      &kp RCTRL  &mo 4
+&kp ESCAPE    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4           &kp N5           &tog 3                                                         &mo 4      &kp NUMBER_6  &kp N7  &kp N8  &kp N9             &kp N0     &kp LEFT
+&kp TAB       &kp SEMICOLON  &kp PLUS      &kp COMMA             &kp Y                  &kp SLASH        &kp LA(GRAVE)                                                  &none      &kp V         &kp W   &kp P   &kp DOUBLE_QUOTES  &kp SQT    &kp UP_ARROW
+&kp ESC       &kp A          &kp E         &kp O                 &kp I                  &mo 1            &none          &kp TAB        &kp L          &kp G  &kp M      &kp MINUS  &mo 1         &kp S   &kp N   &kp R              &kp H      &kp DOWN
+&kp LEFT_WIN  &kp COLON      &kp DOLLAR    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION                                &kp T          &kp D                        &kp J         &kp C   &kp B   &kp X              &kp K      &kp RIGHT
+&mo 3         &kp LCTRL      &kp LEFT_ALT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &kp U          &kp BACKSPACE  &kp EQUAL      &kp F  &kp ENTER  &kp SPACE                &kp Z   &kp Q   &kp RIGHT_ALT      &kp RCTRL  &mo 3
             >;
         };
 
