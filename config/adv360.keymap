@@ -20,8 +20,8 @@
 &kp PERCENT  &kp N1         &kp N2         &kp N3            &kp N4     &kp N5  &tog 1                                                        &mo 3      &kp N6  &kp N7  &kp N8    &kp N9     &kp N0     &kp GRAVE
 &kp TAB      &kp SEMICOLON  &kp LESS_THAN  &kp GREATER_THAN  &kp P      &kp Y   &kp LA(GRAVE)                                                 &none      &kp F   &kp G   &kp C     &kp R      &kp L      &kp SLASH
 &kp ESC      &kp A          &kp O          &kp E             &kp U      &kp I   &none          &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp MINUS  &kp D   &kp H   &kp T     &kp N      &kp S      &kp NON_US_BACKSLASH
-&mo 4        &kp SQT        &kp Q          &kp J             &kp K      &kp X                             &kp HOME      &kp PG_UP                        &kp B   &kp M   &kp W     &kp V      &kp Z      &mo 4
-&mo 2        &kp TILDE      &kp CAPS       &kp LEFT          &kp RIGHT          &kp BSPC       &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp CARET  &kp MINUS  &mo 2
+&mo 5        &kp SQT        &kp Q          &kp J             &kp K      &kp X                             &kp HOME      &kp PG_UP                        &kp B   &kp M   &kp W     &kp V      &kp Z      &mo 4
+&mo 2        &kp TILDE      &kp CAPS       &kp LEFT          &kp RIGHT          &kp BSPC       &kp DEL    &mo 4         &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp CARET  &kp MINUS  &mo 2
             >;
         };
 
