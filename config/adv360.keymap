@@ -61,11 +61,11 @@
         shift {
             display-name = "Base";
             bindings = <
-&kp AMPERSAND   &kp LEFT_BRACKET   &kp LEFT_BRACE     &kp RIGHT_BRACE       &kp LEFT_PARENTHESIS  &kp EQUAL  &tog 1                                                                        &mo 3           &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp PLUS      &kp RIGHT_BRACKET  &kp EXCLAMATION     &kp HASH
-&kp LS(TAB)     &kp LS(SEMICOLON)  &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)  &kp LS(P)             &kp LS(Y)  &kp LA(GRAVE)                                                                 &none           &kp LS(F)     &kp LS(G)              &kp LS(C)     &kp LS(R)          &kp LS(L)           &kp LS(SLASH)
-&kp LS(ESC)     &kp LS(A)          &kp LS(O)          &kp LS(E)             &kp LS(U)             &kp LS(I)  &none          &kp LS(LCTRL)  &kp LS(LALT)      &kp LS(LGUI)   &kp LS(RCTRL)  &kp UNDERSCORE  &kp LS(D)     &kp LS(H)              &kp LS(T)     &kp LS(N)          &kp LS(S)           &kp LS(NON_US_BACKSLASH)
-&kp LEFT_SHIFT  &kp LS(SQT)        &kp LS(Q)          &kp LS(J)             &kp LS(K)             &kp LS(X)                                &kp LS(HOME)      &kp LS(PG_UP)                                 &kp LS(B)     &kp LS(M)              &kp LS(W)     &kp LS(V)          &kp LS(Z)           &kp RSHFT
-&mo 2           &kp LS(GRAVE)      &kp LS(CAPS)       &kp LS(LEFT)          &kp LS(RIGHT)                    &kp LS(BSPC)   &kp LS(DEL)    &kp LS(END)       &kp LS(PG_DN)  &kp LS(ENTER)  &kp LS(SPACE)                 &kp LS(UP)             &kp LS(DOWN)  &kp AT             &kp LS(UNDERSCORE)  &mo 2
+&kp AMPERSAND   &kp LEFT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL  &tog 1                                                                        &mo 3           &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp PLUS      &kp RIGHT_BRACKET  &kp EXCLAMATION     &kp HASH
+&kp LS(TAB)     &kp LS(SEMICOLON)  &kp LS(COMMA)   &kp LS(PERIOD)   &kp LS(P)             &kp LS(Y)  &kp LA(GRAVE)                                                                 &none           &kp LS(F)     &kp LS(G)              &kp LS(C)     &kp LS(R)          &kp LS(L)           &kp LS(SLASH)
+&kp LS(ESC)     &kp LS(A)          &kp LS(O)       &kp LS(E)        &kp LS(U)             &kp LS(I)  &none          &kp LS(LCTRL)  &kp LS(LALT)      &kp LS(LGUI)   &kp LS(RCTRL)  &kp UNDERSCORE  &kp LS(D)     &kp LS(H)              &kp LS(T)     &kp LS(N)          &kp LS(S)           &kp LS(NON_US_BACKSLASH)
+&kp LEFT_SHIFT  &kp LS(SQT)        &kp LS(Q)       &kp LS(J)        &kp LS(K)             &kp LS(X)                                &kp LS(HOME)      &kp LS(PG_UP)                                 &kp LS(B)     &kp LS(M)              &kp LS(W)     &kp LS(V)          &kp LS(Z)           &kp RSHFT
+&mo 2           &kp LS(GRAVE)      &kp LS(CAPS)    &kp LS(LEFT)     &kp LS(RIGHT)                    &kp LS(BSPC)   &kp LS(DEL)    &kp LS(END)       &kp LS(PG_DN)  &kp LS(ENTER)  &kp LS(SPACE)                 &kp LS(UP)             &kp LS(DOWN)  &kp AT             &kp LS(UNDERSCORE)  &mo 2
             >;
         };
 
