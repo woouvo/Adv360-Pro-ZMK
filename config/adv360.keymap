@@ -21,7 +21,7 @@
 &kp TAB      &kp SEMICOLON  &kp LESS_THAN  &kp GREATER_THAN  &kp P      &kp Y   &kp LA(GRAVE)                                                 &none      &kp F   &kp G   &kp C     &kp R      &kp L      &kp SLASH
 &kp ESC      &kp A          &kp O          &kp E             &kp U      &kp I   &none          &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp MINUS  &kp D   &kp H   &kp T     &kp N      &kp S      &kp NON_US_BACKSLASH
 &mo 4        &kp SQT        &kp Q          &kp J             &kp K      &kp X                             &kp HOME      &kp PG_UP                        &kp B   &kp M   &kp W     &kp V      &kp Z      &mo 4
-&mo 2        &kp GRAVE      &kp CAPS       &kp LEFT          &kp RIGHT          &kp BSPC       &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp CARET  &kp MINUS  &mo 2
+&mo 2        &kp TILDE      &kp CAPS       &kp LEFT          &kp RIGHT          &kp BSPC       &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp CARET  &kp MINUS  &mo 2
             >;
         };
 
@@ -65,7 +65,7 @@
 &kp LS(TAB)     &kp LS(SEMICOLON)  &kp COMMA       &kp PERIOD       &kp LS(P)             &kp LS(Y)  &kp LA(GRAVE)                                                                 &none           &kp LS(F)     &kp LS(G)              &kp LS(C)     &kp LS(R)          &kp LS(L)           &kp LS(SLASH)
 &kp LS(ESC)     &kp LS(A)          &kp LS(O)       &kp LS(E)        &kp LS(U)             &kp LS(I)  &none          &kp LS(LCTRL)  &kp LS(LALT)      &kp LS(LGUI)   &kp LS(RCTRL)  &kp UNDERSCORE  &kp LS(D)     &kp LS(H)              &kp LS(T)     &kp LS(N)          &kp LS(S)           &kp LS(NON_US_BACKSLASH)
 &kp LEFT_SHIFT  &kp LS(SQT)        &kp LS(Q)       &kp LS(J)        &kp LS(K)             &kp LS(X)                                &kp LS(HOME)      &kp LS(PG_UP)                                 &kp LS(B)     &kp LS(M)              &kp LS(W)     &kp LS(V)          &kp LS(Z)           &kp RSHFT
-&mo 2           &kp LS(GRAVE)      &kp LS(CAPS)    &kp LS(LEFT)     &kp LS(RIGHT)                    &kp LS(BSPC)   &kp LS(DEL)    &kp LS(END)       &kp LS(PG_DN)  &kp LS(ENTER)  &kp LS(SPACE)                 &kp LS(UP)             &kp LS(DOWN)  &kp AT             &kp LS(UNDERSCORE)  &mo 2
+&mo 2           &kp LS(DOLLAR)     &kp LS(CAPS)    &kp LS(LEFT)     &kp LS(RIGHT)                    &kp LS(BSPC)   &kp LS(DEL)    &kp LS(END)       &kp LS(PG_DN)  &kp LS(ENTER)  &kp LS(SPACE)                 &kp LS(UP)             &kp LS(DOWN)  &kp AT             &kp LS(UNDERSCORE)  &mo 2
             >;
         };
 
