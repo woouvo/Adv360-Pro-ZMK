@@ -28,11 +28,11 @@
         shift {
             display-name = "Base";
             bindings = <
-&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                     &mo 4      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8     &kp N9          &kp N0     &kp LS(LEFT)
-&kp TAB       &kp TILDE     &kp NON_US_BACKSLASH  &kp PERCENT    &kp LS(Y)      &kp ASTERISK      &kp LA(GRAVE)                                                              &none      &kp LS(V)       &kp LS(W)        &kp LS(P)  &kp UNDERSCORE  &kp GRAVE  &kp LS(UP_ARROW)
-&kp ESC       &kp LS(A)     &kp LS(E)             &kp LS(O)      &kp LS(I)      &mo 0             &none          &kp LS(TAB)        &kp LS(SPACE)      &kp LS(G)  &kp LS(M)  &kp MINUS  &mo 0           &kp LS(S)        &kp LS(N)  &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
-&kp LEFT_WIN  &kp PIPE      &kp AT_SIGN           &kp PERIOD     &kp QUESTION   &kp LS(NUMBER_3)                                    &kp LS(ENTER)      &kp LS(D)                        &kp LS(J)       &kp LS(C)        &kp LS(B)  &kp LS(X)       &kp LS(K)  &kp LS(RIGHT)
-&mo 4         &kp LCTRL     &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(U)      &kp LS(BACKSPACE)  &kp EQUAL          &kp LS(F)  &kp LS(T)  &kp LS(L)                  &kp LS(Z)        &kp LS(Q)  &kp RIGHT_ALT   &kp RCTRL  &mo 4
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                     &mo 4          &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8     &kp N9          &kp N0     &kp LS(LEFT)
+&kp TAB       &kp TILDE     &kp NON_US_BACKSLASH  &kp PERCENT    &kp LS(Y)      &kp ASTERISK      &kp LA(GRAVE)                                                              &none          &kp LS(V)       &kp LS(W)        &kp LS(P)  &kp UNDERSCORE  &kp GRAVE  &kp LS(UP_ARROW)
+&kp ESC       &kp LS(A)     &kp LS(E)             &kp LS(O)      &kp LS(I)      &mo 0             &none          &kp LS(TAB)        &kp LS(L)      &kp LS(G)  &kp LS(M)      &kp MINUS      &mo 0           &kp LS(S)        &kp LS(N)  &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
+&kp LEFT_WIN  &kp PIPE      &kp AT_SIGN           &kp PERIOD     &kp QUESTION   &kp LS(NUMBER_3)                                    &kp LS(T)      &kp LS(D)                                &kp LS(J)       &kp LS(C)        &kp LS(B)  &kp LS(X)       &kp LS(K)  &kp LS(RIGHT)
+&mo 4         &kp LCTRL     &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(U)      &kp LS(BACKSPACE)  &kp EQUAL      &kp LS(F)  &kp LS(ENTER)  &kp LS(SPACE)                  &kp LS(Z)        &kp LS(Q)  &kp RIGHT_ALT   &kp RCTRL  &mo 4
             >;
         };
 
