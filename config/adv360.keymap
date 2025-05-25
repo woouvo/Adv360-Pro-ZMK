@@ -26,22 +26,22 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp LA(GRAVE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5            &tog 3                                                                       &mo 4                  &kp NUMBER_6       &kp N7  &kp N8  &kp N9         &kp N0     &kp LEFT
-&kp TAB        &kp SEMICOLON  &kp PLUS      &kp O         &kp Y         &kp SLASH         &kp LESS_THAN                                                                &kp GREATER_THAN       &kp V              &kp W   &kp L   &kp P          &kp SQT    &kp UP_ARROW
-&kp ESC        &kp H          &kp I         &kp E         &kp A         &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp TAB        &tog 2                &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp S   &kp T   &kp N          &kp R      &kp DOWN
-&kp LEFT_WIN   &kp COLON      &kp MINUS     &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                        &kp LEFT_COMMAND      &kp D                                    &kp J              &kp C   &kp B   &kp X          &kp K      &kp RIGHT
-&mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                       &kp U                 &kp BACKSPACE  &mo 1                 &kp F  &kp ENTER  &mo 5                                     &kp Z   &kp Q   &kp RIGHT_ALT  &kp RCTRL  &mo 3
+&kp LA(GRAVE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                                 &mo 4                  &kp NUMBER_6  &kp N7  &kp N8     &kp N9         &kp N0     &kp LEFT
+&kp TAB        &kp SEMICOLON  &kp PLUS      &kp O         &kp Y         &kp SLASH        &kp LESS_THAN                                                          &kp GREATER_THAN       &kp V         &kp W   &kp L      &kp P          &kp SQT    &kp UP_ARROW
+&kp ESC        &kp H          &kp I         &kp E         &kp A         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &tog 2                &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp K         &kp S   &kp T      &kp N          &kp R      &kp DOWN
+&mo 1          &kp COLON      &kp MINUS     &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                 &kp LEFT_COMMAND      &kp D                                    &kp J         &kp C   &kp B      &kp X          &kp Q      &kp RIGHT
+&mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                      &kp BACKSPACE         &kp U    &mo 1                 &kp F  &kp ENTER  &mo 5                                &kp Z   &kp TILDE  &kp RIGHT_ALT  &kp RCTRL  &mo 1
             >;
         };
 
         shift {
             display-name = "Base";
             bindings = <
-&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN    &tog 3                                                                                       &mo 4                  &kp LEFT_BRACE       &kp RIGHT_BRACE  &kp N8     &kp N9          &kp N0     &kp LS(LEFT)
-&kp TAB       &kp TILDE     &kp NON_US_BACKSLASH  &kp LS(O)      &kp LS(Y)      &kp ASTERISK        &kp LEFT_PARENTHESIS                                                                         &kp RIGHT_PARENTHESIS  &kp LS(V)            &kp LS(W)        &kp LS(P)  &kp UNDERSCORE  &kp GRAVE  &kp LS(UP_ARROW)
-&kp ESC       &kp LS(H)     &kp LS(I)             &kp LS(E)      &kp LS(A)      &kp LS(LEFT_BRACE)  &kp LS(LEFT_BRACE)    &kp LS(TAB)        &tog 2                    &kp LS(G)  &kp LS(M)      &kp LS(RIGHT_BRACE)    &kp LS(RIGHT_BRACE)  &kp LS(S)        &kp LS(N)  &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
-&kp LEFT_WIN  &kp PIPE      &kp AT_SIGN           &kp PERIOD     &kp QUESTION   &kp LS(NUMBER_3)                                             &kp LS(LEFT_COMMAND)      &kp LS(D)                                        &kp LS(J)            &kp LS(C)        &kp LS(B)  &kp LS(X)       &kp LS(K)  &kp LS(RIGHT)
-&mo 4         &kp LCTRL     &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                          &kp LS(U)             &kp LS(BACKSPACE)  &kp EQUAL                 &kp LS(F)  &kp LS(ENTER)  &kp LS(SPACE)                               &kp LS(Z)        &kp LS(Q)  &kp RIGHT_ALT   &kp RCTRL  &mo 4
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                                 &mo 4                  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8           &kp N9          &kp N0     &kp LS(LEFT)
+&kp TAB       &kp TILDE     &kp NON_US_BACKSLASH  &kp LS(O)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_PARENTHESIS                                                                   &kp RIGHT_PARENTHESIS  &kp LS(V)       &kp LS(W)        &kp LS(P)        &kp UNDERSCORE  &kp GRAVE  &kp LS(UP_ARROW)
+&kp ESC       &kp LS(H)     &kp LS(I)             &kp LS(E)      &kp LS(A)      &kp COMMA         &kp LS(LEFT_BRACE)    &kp LS(TAB)  &tog 2                    &kp LS(G)  &kp LS(M)      &kp LS(RIGHT_BRACE)    &kp LS(K)       &kp LS(S)        &kp LS(N)        &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
+&kp LEFT_WIN  &kp PIPE      &kp AT_SIGN           &kp HASH       &kp QUESTION   &kp LS(NUMBER_3)                                     &kp LS(LEFT_COMMAND)      &kp LS(D)                                        &kp LS(J)       &kp LS(C)        &kp LS(B)        &kp LS(X)       &kp LS(Q)  &kp LS(RIGHT)
+&mo 4         &kp LCTRL     &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)     &kp LS(U)    &kp EQUAL                 &kp LS(F)  &kp LS(ENTER)  &kp LS(SPACE)                          &kp LS(Z)        &kp LS(PERCENT)  &kp RIGHT_ALT   &kp RCTRL  &mo 4
             >;
         };
 
