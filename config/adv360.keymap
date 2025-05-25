@@ -28,7 +28,7 @@
             bindings = <
 &kp LA(GRAVE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                                       &mo 4                  &kp NUMBER_6  &kp N7  &kp N8     &kp N9         &kp N0     &kp LEFT
 &kp TAB        &kp SEMICOLON  &kp Y         &kp O         &kp U         &kp SLASH        &kp LESS_THAN                                                                &kp GREATER_THAN       &kp V         &kp W   &kp L      &kp P          &kp SQT    &kp UP_ARROW
-&kp ESC        &kp H          &kp I         &kp E         &kp A         &kp COMMA        &kp LEFT_PARENTHESIS  &kp TAB        &tog 2                &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp K         &kp S   &kp T      &kp N          &kp R      &kp DOWN
+&kp ESC        &kp H          &kp I         &kp E         &kp A         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB        &tog 2                &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp K         &kp S   &kp T      &kp N          &kp R      &kp DOWN
 &mo 1          &kp COLON      &kp MINUS     &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                       &kp LEFT_COMMAND      &kp D                                    &kp J         &kp C   &kp B      &kp X          &kp Q      &kp RIGHT
 &mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                      &mo 1                 &kp BACKSPACE  &mo 1                 &kp F  &kp ENTER  &mo 5                                &kp Z   &kp TILDE  &kp RIGHT_ALT  &kp RCTRL  &mo 1
             >;
@@ -39,7 +39,7 @@
             bindings = <
 &kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                                     &mo 4                &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8           &kp N9          &kp N0     &kp LS(LEFT)
 &kp TAB       &kp TILDE     &kp LS(Y)     &kp LS(O)      &kp LS(U)      &kp ASTERISK      &kp LEFT_BRACKET                                                                           &kp RIGHT_BRACKET    &kp LS(V)       &kp LS(W)        &kp LS(P)        &kp UNDERSCORE  &kp GRAVE  &kp LS(UP_ARROW)
-&kp ESC       &kp LS(H)     &kp LS(I)     &kp LS(E)      &kp LS(A)      &kp PERIOD        &kp LS(LEFT_BRACE)  &kp LS(TAB)        &tog 2                    &kp LS(G)  &kp LS(M)      &kp LS(RIGHT_BRACE)  &kp LS(K)       &kp LS(S)        &kp LS(N)        &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
+&kp ESC       &kp LS(H)     &kp LS(I)     &kp LS(E)      &kp LS(A)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)        &tog 2                    &kp LS(G)  &kp LS(M)      &kp LS(RIGHT_BRACE)  &kp LS(K)       &kp LS(S)        &kp LS(N)        &kp LS(R)       &kp LS(H)  &kp LS(DOWN)
 &kp LEFT_WIN  &kp PIPE      &kp AT_SIGN   &kp HASH       &kp QUESTION   &kp LS(NUMBER_3)                                         &kp LS(LEFT_COMMAND)      &kp LS(D)                                      &kp LS(J)       &kp LS(C)        &kp LS(B)        &kp LS(X)       &kp LS(Q)  &kp LS(RIGHT)
 &mo 4         &kp LCTRL     &kp LEFT_ALT  &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(BACKSPACE)  &kp EQUAL                 &kp LS(F)  &kp LS(ENTER)  &kp LS(SPACE)                        &kp LS(Z)        &kp LS(PERCENT)  &kp RIGHT_ALT   &kp RCTRL  &mo 4
             >;
