@@ -29,7 +29,7 @@
 &kp LA(GRAVE)  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5            &tog 3                                                                       &mo 4                  &kp NUMBER_6       &kp N7  &kp N8  &kp N9         &kp N0     &kp LEFT
 &kp TAB        &kp SEMICOLON  &kp PLUS      &kp O         &kp Y         &kp SLASH         &kp LESS_THAN                                                                &kp GREATER_THAN       &kp V              &kp W   &kp L   &kp P          &kp SQT    &kp UP_ARROW
 &kp ESC        &kp H          &kp I         &kp E         &kp A         &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp TAB        &tog 2                &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp S   &kp T   &kp N          &kp R      &kp DOWN
-&kp LEFT_WIN   &kp COLON      &kp DOLLAR    &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                        &kp LEFT_COMMAND      &kp D                                    &kp J              &kp C   &kp B   &kp X          &kp K      &kp RIGHT
+&kp LEFT_WIN   &kp COLON      &kp MINUS     &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                        &kp LEFT_COMMAND      &kp D                                    &kp J              &kp C   &kp B   &kp X          &kp K      &kp RIGHT
 &mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                       &kp U                 &kp BACKSPACE  &mo 1                 &kp F  &kp ENTER  &mo 5                                     &kp Z   &kp Q   &kp RIGHT_ALT  &kp RCTRL  &mo 3
             >;
         };
@@ -83,7 +83,7 @@
             bindings = <
 &kp PERCENT  &kp N1         &kp N2         &kp N3            &kp N4             &kp N5         &tog 3                                                            &mo 4               &kp N6           &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
 &kp TAB      &kp PIPE       &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp SQT        &kp LA(GRAVE)                                                     &none               &kp GRAVE        &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
-&kp ESC      &kp AMPERSAND  &kp PERIOD     &kp EQUAL         &kp COLON          &kp SEMICOLON  &none          &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL  &kp RS(UNDERSCORE)  &kp EXCLAMATION  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
+&kp ESC      &kp AMPERSAND  &kp COMMA      &kp PERIOD        &kp COLON          &kp SEMICOLON  &none          &kp DELETE     &kp LALT      &kp LGUI   &kp RCTRL  &kp RS(UNDERSCORE)  &kp EXCLAMATION  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
 &mo 6        &kp DOLLAR     &kp HASH       &kp CARET         &kp AT_SIGN        &trans                                       &mo 0         &kp PG_UP                                 &kp TILDE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
 &mo 4        &kp TILDE      &kp CAPS       &kp LEFT          &kp RIGHT                         &kp SPACE      &kp BACKSPACE  &mo 0         &kp PG_DN  &kp ENTER  &kp SPACE                            &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 4
             >;
