@@ -120,11 +120,11 @@
 
         mouse {
             bindings = <
-&trans  &trans          &trans        &trans          &trans           &trans  &trans                                                        &trans     &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans          &trans        &trans          &trans           &trans  &trans                                                        &trans     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans          &trans  &trans      &trans         &mkp MCLK  &trans     &trans  &mmvlf          &mmvdf          &mmvuf        &mmvrf           &trans
-&trans  &trans          &trans        &trans          &trans           &trans                          &trans      &kp PAGE_UP                          &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans          &trans        &trans          &trans                   &kp LEFT_SHIFT  &none   &to 0       &kp PAGE_DOWN  &mkp LCLK  &mkp RCLK          &trans          &trans          &trans        &trans           &trans
+&trans  &trans          &trans        &trans          &trans           &trans  &trans                                                        &trans     &trans  &trans             &trans             &trans            &trans            &trans
+&trans  &trans          &trans        &trans          &trans           &trans  &trans                                                        &trans     &trans  &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_UP      &mmv MOVE_RIGHT   &trans
+&trans  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans          &trans  &trans      &trans         &mkp MCLK  &trans     &trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_Y(600)  &mmv MOVE_X(600)  &trans
+&trans  &trans          &trans        &trans          &trans           &trans                          &trans      &kp PAGE_UP                          &trans  &trans             &trans             &trans            &trans            &trans
+&trans  &trans          &trans        &trans          &trans                   &kp LEFT_SHIFT  &none   &to 0       &kp PAGE_DOWN  &mkp LCLK  &mkp RCLK          &trans             &trans             &trans            &trans            &trans
             >;
         };
 
