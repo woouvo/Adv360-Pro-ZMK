@@ -47,6 +47,14 @@
             bindings = <&mmv MOVE_RIGHT &mmv MOVE_RIGHT>;
             label = "MMVRF";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&to 1>, <&macro_tap>, <&kp U>;
+
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
