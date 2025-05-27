@@ -67,7 +67,7 @@
 &kp TAB        &kp SEMICOLON  &kp Y         &kp H         &kp U         &kp SLASH        &kp LESS_THAN                                                     &kp GREATER_THAN       &kp V         &kp W   &kp Z      &kp P          &kp SQT    &kp UP_ARROW
 &kp ESC        &kp A          &kp I         &kp O         &kp E         &kp COMMA        &kp LEFT_PARENTHESIS  &kp TAB        &to 2      &kp G  &kp M      &kp RIGHT_PARENTHESIS  &kp K         &kp T   &kp S      &kp N          &kp R      &kp DOWN
 &kp LEFT_WIN   &kp COLON      &kp MINUS     &kp EQUAL     &kp PLUS      &kp EXCLAMATION                                       &to 6      &kp D                                    &kp J         &kp C   &kp B      &kp L          &kp Q      &kp RIGHT
-&mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                      &mo 1                 &kp BACKSPACE  &to 0      &kp F  &kp ENTER  &mo 5                                &kp X   &kp TILDE  &kp RIGHT_ALT  &kp RCTRL  &mo 1
+&mo 3          &kp LCTRL      &kp LEFT_ALT  &kp MINUS     &kp SLASH                      &new_macro            &kp BACKSPACE  &to 0      &kp F  &kp ENTER  &mo 5                                &kp X   &kp TILDE  &kp RIGHT_ALT  &kp RCTRL  &mo 1
             >;
         };
 
