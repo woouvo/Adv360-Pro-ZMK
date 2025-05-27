@@ -10,16 +10,6 @@
     behaviors {
         #include "macros.dtsi"
       #include "version.dtsi"
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <20>;
-            hold-trigger-key-positions = <65>;
-        };
     };
 
     macros {
@@ -56,21 +46,6 @@
             #binding-cells = <0>;
             bindings = <&mmv MOVE_RIGHT &mmv MOVE_RIGHT>;
             label = "MMVRF";
-        };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&mo 1>, <&macro_tap>, <&kp U>;
-
-            label = "NEW_MACRO";
-        };
-
-        tss: tss {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "TSS";
         };
     };
 
