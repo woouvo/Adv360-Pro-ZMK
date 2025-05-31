@@ -90,11 +90,17 @@
         shift_u {
             bindings = <&kp LS(U)>;
             key-positions = <66 65>;
+            layers = <0 1>;
         };
 
         space_combo {
             bindings = <&kp SPACE>;
             key-positions = <69 70>;
+        };
+
+        enter {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <70 66 65>;
         };
     };
 
@@ -102,7 +108,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "Base";
+            display-name = "Defalt";
             bindings = <
 &kp LA(GRAVE)     &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                  &mo 4                  &kp NUMBER_6  &kp N7    &kp N8     &kp N9         &kp N0     &kp LEFT
 &kp TAB           &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp Y         &kp H         &kp SLASH        &kp LESS_THAN                                           &kp GREATER_THAN       &kp V         &kp W     &kp Z      &kp P          &kp SQT    &kp UP_ARROW
@@ -113,7 +119,7 @@
         };
 
         shift {
-            display-name = "Base";
+            display-name = "Shift";
             bindings = <
 &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                           &mo 4                &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
 &kp TAB     &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(Y)      &kp LS(H)      &kp ASTERISK      &kp LEFT_BRACKET                                                                 &kp RIGHT_BRACKET    &kp LS(V)       &kp LS(W)        &kp LS(Z)        &kp LS(P)      &kp GRAVE  &kp LS(UP_ARROW)
@@ -157,7 +163,7 @@
         };
 
         alpha {
-            display-name = "Base";
+            display-name = "alpha";
             bindings = <
 &kp PERCENT  &kp N1      &kp N2         &kp N3             &kp N4             &kp N5                &tog 3                                                            &mo 4               &kp N6           &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
 &kp TAB      &kp PIPE    &kp LESS_THAN  &kp GREATER_THAN   &kp DOUBLE_QUOTES  &kp SQT               &kp LA(GRAVE)                                                     &none               &kp GRAVE        &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
@@ -198,12 +204,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        test {
-            if-layers = <7>;
-            then-layer = <7>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
