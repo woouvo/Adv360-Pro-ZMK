@@ -133,6 +133,8 @@
             bindings = <&kp G>;
             key-positions = <53 68>;
             layers = <0>;
+            slow-release;
+            timeout-ms = <80>;
         };
 
         gg {
