@@ -171,7 +171,7 @@
 
         q {
             bindings = <&kp Q>;
-            key-positions = <26 44>;
+            key-positions = <40 41>;
             layers = <0>;
         };
 
@@ -189,7 +189,7 @@
 
         qq {
             bindings = <&kp LS(Q)>;
-            key-positions = <26 44>;
+            key-positions = <40 41>;
             layers = <1>;
         };
     };
