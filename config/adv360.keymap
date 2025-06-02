@@ -134,8 +134,8 @@
             key-positions = <53 68>;
             layers = <0>;
             slow-release;
-            timeout-ms = <80>;
-            require-prior-idle-ms = <80>;
+            timeout-ms = <180>;
+            require-prior-idle-ms = <0>;
         };
 
         gg {
