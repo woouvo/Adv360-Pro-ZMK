@@ -135,6 +135,7 @@
             layers = <0>;
             slow-release;
             timeout-ms = <80>;
+            require-prior-idle-ms = <80>;
         };
 
         gg {
