@@ -94,14 +94,6 @@
 
             label = "NEW_MACRO";
         };
-
-        new_macro2: new_macro2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp A &kp B>, <&macro_release>;
-
-            label = "NEW_MACRO";
-        };
     };
 
     combos {
