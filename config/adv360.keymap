@@ -144,22 +144,10 @@
             layers = <1>;
         };
 
-        k {
-            bindings = <&kp K>;
-            key-positions = <41 42>;
-            layers = <0>;
-        };
-
         b {
             bindings = <&kp B>;
             key-positions = <23 41>;
             layers = <0>;
-        };
-
-        kk {
-            bindings = <&kp LS(K)>;
-            key-positions = <41 42>;
-            layers = <1>;
         };
 
         bb {
@@ -181,7 +169,7 @@
         };
 
         q {
-            bindings = <&kp Q>;
+            bindings = <&kp K>;
             key-positions = <40 41>;
             layers = <0>;
         };
@@ -199,7 +187,7 @@
         };
 
         qq {
-            bindings = <&kp LS(Q)>;
+            bindings = <&kp LS(K)>;
             key-positions = <40 41>;
             layers = <1>;
         };
@@ -208,12 +196,14 @@
             bindings = <&kp G>;
             key-positions = <53 68 69>;
             layers = <0>;
+            timeout-ms = <100>;
         };
 
         gggg {
             bindings = <&kp LS(G)>;
             key-positions = <53 68 69>;
             layers = <1>;
+            timeout-ms = <100>;
         };
     };
 
@@ -224,7 +214,7 @@
             display-name = "Defalt";
             bindings = <
 &new_macro        &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                  &mo 4                  &kp NUMBER_6  &kp N7          &kp N8     &kp N9         &kp N0     &kp LEFT
-&kp TAB           &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                           &kp GREATER_THAN       &kp V         &kp W           &kp Z      &kp P          &kp SQT    &kp UP_ARROW
+&kp TAB           &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                           &kp GREATER_THAN       &kp V         &kp W           &kp Z      &kp P          &kp Q      &kp UP_ARROW
 &kp ESC           &kp A          &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 2      &kp G  &kp M  &kp RIGHT_PARENTHESIS  &kp L         &kp T           &kp C      &kp N          &kp R      &kp DOWN
 &kp LEFT_CONTROL  &kp COLON      &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &to 6      &kp D                                &kp LEFT      &kp LEFT_ARROW  &kp DOWN   &kp UP         &kp RIGHT  &kp RIGHT
 &mo 3             &kp LEFT_WIN   &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &as_ht 1 ENTER        &kp U    &to 0      &kp F  &kp S  &mo 5                                &kp HOME        &kp TILDE  &kp RIGHT_ALT  &kp RCTRL  &mo 1
@@ -235,7 +225,7 @@
             display-name = "Shift";
             bindings = <
 &new_macro  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                           &mo 4                &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
-&kp TAB     &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                 &kp RIGHT_BRACKET    &kp LS(V)       &kp LS(W)        &kp LS(Z)        &kp LS(P)      &kp GRAVE  &kp LS(UP_ARROW)
+&kp TAB     &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                 &kp RIGHT_BRACKET    &kp LS(V)       &kp LS(W)        &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
 &kp ESC     &kp LS(A)     &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp LS(M)  &kp LS(RIGHT_BRACE)  &kp LS(L)       &kp LS(T)        &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
 &kp LCTRL   &kp PIPE      &kp AT_SIGN           &kp HASH       &kp QUESTION   &kp LS(NUMBER_3)                                   &kp LS(LEFT_COMMAND)      &kp LS(D)                                  &kp LS(K)       &kp LS(B)        &kp LS(J)        &kp LS(X)      &kp LS(Q)  &kp LS(RIGHT)
 &mo 4       &kp LEFT_WIN  &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)  &kp LS(ENTER)                        &kp LS(X)        &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 4
