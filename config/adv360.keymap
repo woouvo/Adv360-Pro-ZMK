@@ -131,7 +131,7 @@
 
         g {
             bindings = <&kp G>;
-            key-positions = <53 68>;
+            key-positions = <53 69>;
             layers = <0>;
             slow-release;
             timeout-ms = <180>;
@@ -140,7 +140,7 @@
 
         gg {
             bindings = <&kp LS(G)>;
-            key-positions = <53 68>;
+            key-positions = <53 69>;
             layers = <1>;
         };
 
