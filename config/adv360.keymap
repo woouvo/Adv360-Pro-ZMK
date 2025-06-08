@@ -157,7 +157,7 @@
         };
 
         j {
-            bindings = <&kp J>;
+            bindings = <&kp K>;
             key-positions = <24 42>;
             layers = <0>;
         };
@@ -169,13 +169,13 @@
         };
 
         q {
-            bindings = <&kp K>;
+            bindings = <&kp J>;
             key-positions = <40 41>;
             layers = <0>;
         };
 
         jj {
-            bindings = <&kp LS(J)>;
+            bindings = <&kp LS(K)>;
             key-positions = <24 42>;
             layers = <1>;
         };
@@ -187,7 +187,7 @@
         };
 
         qq {
-            bindings = <&kp LS(K)>;
+            bindings = <&kp LS(J)>;
             key-positions = <40 41>;
             layers = <1>;
         };
