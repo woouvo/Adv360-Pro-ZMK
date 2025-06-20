@@ -92,6 +92,7 @@
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp GRAVE>,
+                <&macro_release>,
                 <&macro_release>;
 
             label = "NEW_MACRO";
