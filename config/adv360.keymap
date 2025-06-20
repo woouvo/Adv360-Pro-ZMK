@@ -88,9 +88,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap_time 50>,
+                <&macro_press>,
                 <&macro_tap>,
-                <&kp LEFT_ALT &kp GRAVE>;
+                <&kp LEFT_ALT &kp GRAVE>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
 
             label = "NEW_MACRO";
         };
