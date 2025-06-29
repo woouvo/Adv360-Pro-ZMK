@@ -77,7 +77,7 @@
         shift_u {
             bindings = <&kp LS(U)>;
             key-positions = <66 65>;
-            layers = <0 1>;
+            layers = <0 2>;
         };
 
         space_combo {
@@ -104,7 +104,7 @@
         Mm {
             bindings = <&kp LS(M)>;
             key-positions = <68 69>;
-            layers = <1>;
+            layers = <2>;
         };
 
         g {
@@ -119,7 +119,7 @@
         gg {
             bindings = <&kp LS(G)>;
             key-positions = <53 69>;
-            layers = <1>;
+            layers = <2>;
         };
 
         b {
@@ -131,7 +131,7 @@
         bb {
             bindings = <&kp LS(B)>;
             key-positions = <23 41>;
-            layers = <1>;
+            layers = <2>;
         };
 
         j {
@@ -155,19 +155,19 @@
         jj {
             bindings = <&kp LS(K)>;
             key-positions = <24 42>;
-            layers = <1>;
+            layers = <2>;
         };
 
         xx {
             bindings = <&kp LS(X)>;
             key-positions = <25 43>;
-            layers = <1>;
+            layers = <2>;
         };
 
         qq {
             bindings = <&kp LS(J)>;
             key-positions = <40 41>;
-            layers = <1>;
+            layers = <2>;
         };
 
         ggg {
@@ -180,7 +180,7 @@
         gggg {
             bindings = <&kp LS(G)>;
             key-positions = <53 68 69>;
-            layers = <1>;
+            layers = <2>;
             timeout-ms = <100>;
         };
     };
@@ -191,22 +191,11 @@
         default_layer {
             display-name = "Defalt";
             bindings = <
-&new_macroaa      &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                  &mo 4                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
-&kp TAB           &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                           &kp GREATER_THAN       &kp V         &kp W     &kp Z         &kp P          &kp Q      &kp UP_ARROW
-&kp ESC           &kp A          &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 2      &kp G  &kp M  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
-&kp LEFT_CONTROL  &kp COLON      &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &to 6      &kp D                                &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp END    &kp RIGHT
-&mo 3             &kp LEFT_WIN   &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &as_ht 1 ENTER        &kp U    &to 0      &kp F  &kp S  &mo 5                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 1
-            >;
-        };
-
-        shift {
-            display-name = "Shift";
-            bindings = <
-&kp NON_US_HASH  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                                     &mo 4                &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
-&kp TAB          &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                           &kp RIGHT_BRACKET    &kp LS(V)           &kp LS(W)         &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
-&kp ESC          &kp LS(A)     &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp INTERNATIONAL_1  &kp LS(RIGHT_BRACE)  &kp LS(L)           &kp LS(T)         &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
-&kp LCTRL        &kp PIPE      &kp AT_SIGN           &kp HASH       &kp QUESTION   &kp LS(NUMBER_3)                                   &kp LS(LEFT_COMMAND)      &kp LS(D)                                            &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN)     &kp LS(RIGHT)  &kp LS(Q)  &kp LS(RIGHT)
-&mo 4            &kp LEFT_WIN  &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)            &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 4
+&new_macroaa      &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 3                                                  &mo 4                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
+&kp TAB           &kp GRAVE     &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                           &kp GREATER_THAN       &kp V         &kp W     &kp Z         &kp P          &kp Q      &kp UP_ARROW
+&kp ESC           &kp A         &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 1      &kp G  &kp M  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
+&kp LEFT_CONTROL  &kp COLON     &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &to 6      &kp D                                &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp END    &kp RIGHT
+&mo 3             &kp LEFT_WIN  &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &as_ht 2 ENTER        &kp U    &to 0      &kp F  &kp S  &mo 5                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 2
             >;
         };
 
@@ -218,6 +207,17 @@
 &kp ESC        &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &tog 0        &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L             &kp SEMICOLON  &kp SQT
 &kt LSHFT      &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp PERIOD        &kp SLASH      &kp RSHFT
 &mo 4          &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &to 0         &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 4
+            >;
+        };
+
+        shift {
+            display-name = "Shift";
+            bindings = <
+&kp NON_US_HASH  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 3                                                                                     &mo 4                &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
+&kp TAB          &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                           &kp RIGHT_BRACKET    &kp LS(V)           &kp LS(W)         &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
+&kp ESC          &kp LS(A)     &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp INTERNATIONAL_1  &kp LS(RIGHT_BRACE)  &kp LS(L)           &kp LS(T)         &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
+&kp LCTRL        &kp PIPE      &kp AT_SIGN           &kp HASH       &kp DOLLAR     &kp QMARK                                          &kp LS(LEFT_COMMAND)      &kp LS(D)                                            &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN)     &kp LS(RIGHT)  &kp LS(Q)  &kp LS(RIGHT)
+&mo 4            &kp LEFT_WIN  &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)            &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 4
             >;
         };
 
@@ -246,11 +246,11 @@
         alpha {
             display-name = "alpha";
             bindings = <
-&kp PERCENT  &kp N1      &kp N2         &kp N3             &kp N4       &kp N5                &tog 3                                                            &mo 4               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
-&kp TAB      &kp PIPE    &kp LESS_THAN  &kp GREATER_THAN   &kp CARET    &kp DOLLAR            &kp LA(GRAVE)                                                     &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
-&kp ESC      &kp COLON   &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SQT      &kp NON_US_BACKSLASH  &none          &kp DELETE     &kp LALT      &kp LGUI   &kp RCTRL  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
-&mo 0        &kp DOLLAR  &kp HASH       &kp CARET          &kp AT_SIGN  &kp QUESTION                                        &mo 0         &kp PG_UP                                 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
-&mo 4        &kp TILDE   &kp CAPS       &kp LEFT           &kp RIGHT                          &kp ENTER      &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER  &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 4
+&kp PERCENT  &kp N1      &kp N2         &kp N3             &kp N4       &kp N5         &tog 3                                                            &mo 4               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
+&kp TAB      &kp PIPE    &kp LESS_THAN  &kp GREATER_THAN   &kp CARET    &kp DOLLAR     &kp LA(GRAVE)                                                     &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
+&kp ESC      &kp COLON   &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp SQT      &kp PIPE       &none          &kp DELETE     &kp LALT      &kp LGUI   &kp RCTRL  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
+&mo 0        &kp DOLLAR  &kp HASH       &kp CARET          &kp AT_SIGN  &kp AMPERSAND                                &mo 0         &kp PG_UP                                 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
+&mo 4        &kp TILDE   &kp CAPS       &kp LEFT           &kp RIGHT                   &kp ENTER      &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER  &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 4
             >;
         };
 
