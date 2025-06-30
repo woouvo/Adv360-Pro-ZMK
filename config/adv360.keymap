@@ -90,11 +90,6 @@
             key-positions = <70 66 65>;
         };
 
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <66 70>;
-        };
-
         m {
             bindings = <&kp M>;
             key-positions = <69 68>;
