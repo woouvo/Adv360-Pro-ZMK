@@ -308,9 +308,9 @@
 &kt LSHFT  &ng Z      &ng X     &ng C     &ng V      &ng B                        &kp HOME      &kp PG_UP                        &ng N   &ng M   &ng COMMA  &ng PERIOD        &ng SLASH      &kp RSHFT
 &mo 5      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &ng ENTER  &ng SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 5
             >;
+
         };
-
-
+    };
 };
 
 
