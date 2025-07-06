@@ -35,7 +35,7 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&to 1>;
+                <&to 7>;
         };
 
         ng_off: ng_off {
@@ -114,7 +114,7 @@
             timeout-ms = <300>;
             key-positions = <40 41>; // F, Gのキー位置に書き換えてください
             bindings = <&ng_off>;
-            layers = <0 9>; // デフォルトレイヤーが0、薙刀式レイヤーが1の前提
+            layers = <0 7>; // デフォルトレイヤーが0、薙刀式レイヤーが1の前提
         };
 
         shift_u {
@@ -131,11 +131,6 @@
         enter {
             bindings = <&kp LS(ENTER)>;
             key-positions = <70 66 65>;
-        };
-
-        bs {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <66 70>;
         };
 
         m {
@@ -305,16 +300,6 @@
 &trans  &trans          &trans          &trans        &trans          &trans                                   &trans      &kp PAGE_UP                          &trans          &none           &trans        &trans           &trans            &trans
 &trans  &trans          &trans          &trans        &trans                           &kp LEFT_SHIFT  &none   &to 0       &kp PAGE_DOWN  &mkp LCLK  &mkp RCLK                  &trans          &trans        &trans           &trans            &trans
             >;
-        };
-
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
-            status = "reserved";
         };
 
         naginata_layer {
