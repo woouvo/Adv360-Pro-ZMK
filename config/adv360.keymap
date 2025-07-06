@@ -123,6 +123,13 @@
             layers = <0 1>;
         };
 
+
+        shift_u {
+            bindings = <&kp LS(U)>;
+            key-positions = <66 65>;
+            layers = <0 1>;
+        };
+
         space_combo {
             bindings = <&kp SPACE>;
             key-positions = <69 70>;
@@ -308,7 +315,7 @@
 &kp TAB    &ng Q      &ng W     &ng E     &ng R      &ng T   &none                                                  &none  &ng Y   &ng U   &ng I      &ng O             &ng P          &kp NON_US_BACKSLASH
 &kp ESC    &ng A      &ng S     &ng D     &ng F      &ng G   &none   &kp LCTRL  &tog 0        &kp LGUI   &kp RCTRL  &none  &ng H   &ng J   &ng K      &ng L             &ng SEMICOLON  &kp SQT
 &kt LSHFT  &ng Z      &ng X     &ng C     &ng V      &ng B                      &kp HOME      &kp PG_UP                    &ng N   &ng M   &ng COMMA  &ng PERIOD        &ng SLASH      &kp RSHFT
-&mo 5      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &mo 1   &kp DEL    &nihon        &kp PG_DN  &ng ENTER  &mo 2          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 5
+&mo 5      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &mo 1   &kp DEL    &nihon        &kp PG_DN  &ng ENTER  &ng SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 5
             >;
         };
     };
