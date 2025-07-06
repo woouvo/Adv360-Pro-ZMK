@@ -35,7 +35,7 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&to 9>;
+                <&to 1>;
         };
 
         ng_off: ng_off {
