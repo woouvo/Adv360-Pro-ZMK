@@ -35,7 +35,7 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&to 7>;
+                <&to 8>;
         };
 
         ng_off: ng_off {
@@ -114,7 +114,7 @@
             timeout-ms = <300>;
             key-positions = <40 41>; // F, Gのキー位置に書き換えてください
             bindings = <&ng_off>;
-            layers = <0 7>; // デフォルトレイヤーが0、薙刀式レイヤーが1の前提
+            layers = <0 8>; // デフォルトレイヤーが0、薙刀式レイヤーが1の前提
         };
 
         shift_u {
@@ -309,6 +309,17 @@
 &kp ESC    &ng A      &ng S     &ng D     &ng F      &ng G   &none   &kp LCTRL  &tog 0        &kp LGUI   &kp BACKSPACE  &none      &ng H   &ng J   &ng K      &ng L             &ng SEMICOLON  &kp SQT
 &kt LSHFT  &ng Z      &ng X     &ng C     &ng V      &ng B                      &kp HOME      &kp PG_UP                            &ng N   &ng M   &ng COMMA  &ng PERIOD        &ng SLASH      &kp RSHFT
 &mo 5      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &mo 1   &kp DEL    &nihon        &kp PG_DN  &ng ENTER      &ng SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 5
+            >;
+        };
+
+        new_nagi {
+            display-name = "new_nagi";
+            bindings = <
+&kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                       &mo 5      &kp N6  &kp N7  &kp N8     &kp N9            &kp N0         &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                        &none      &kp Y   &kp U   &kp I      &kp O             &kp P          &kp NON_US_BACKSLASH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &tog 0        &kp LGUI   &kp BACKSPACE  &none      &kp H   &kp J   &kp K      &kp L             &kp SEMICOLON  &kp SQT
+&kt LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                            &kp N   &kp M   &kp COMMA  &kp PERIOD        &kp SLASH      &kp RSHFT
+&mo 5      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &kp ENTER      &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 5
             >;
         };
     };
