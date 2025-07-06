@@ -117,11 +117,6 @@
             layers = <0 7>; // デフォルトレイヤーが0、薙刀式レイヤーが1の前提
         };
 
-        shift_u {
-            bindings = <&kp LS(U)>;
-            key-positions = <66 65>;
-            layers = <0 1>;
-        };
 
 
         shift_u {
