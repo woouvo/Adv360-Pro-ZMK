@@ -99,7 +99,7 @@
             label = "NEW_MACRO";
         };
 
-        ltsst: cicco {
+        ltsst: ciccogg {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
