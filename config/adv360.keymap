@@ -328,11 +328,11 @@
         new_nagi {
             display-name = "new_nagi";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                                   &mo 5  &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
-&kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &none                                                                    &none  &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
-&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &none     &kp LCTRL          &tog 0        &kp LGUI   &kp BACKSPACE      &none  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
-&kt RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                     &kp HOME      &kp PG_UP                            &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
-&mo 6      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &kp BSPC  &kp RIGHT_BRACKET  &ng_off       &kp PG_DN  &kp RIGHT_BRACKET  &mo 8                 &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 6
+&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                                  &mo 5  &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
+&kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &none                                                                   &none  &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
+&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &none     &kp LCTRL          &tog 0        &kp LGUI   &kp BACKSPACE     &none  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
+&kt RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                     &kp HOME      &kp PG_UP                           &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
+&mo 6      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &kp BSPC  &kp RIGHT_BRACKET  &ng_off       &kp PG_DN  &kp LEFT_BRACKET  &mo 8                 &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 6
             >;
         };
 
