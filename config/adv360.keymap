@@ -326,7 +326,7 @@
         };
 
         nb {
-            bindings = <&kp PERIOD>;
+            bindings = <&kp LS(PERIOD)>;
             key-positions = <23 41>;
             layers = <8>;
         };
