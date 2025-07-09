@@ -337,11 +337,11 @@
         new_nagi {
             display-name = "new_nagi";
             bindings = <
-&kp GRAVE  &kp N1                &kp N2        &kp N3    &kp N4     &kp N5     &trans                                                       &mo 6      &kp N6         &kp N7        &kp N8          &kp N9            &kp N0                &kp MINUS
-&kp TAB    &kp LEFT_SHIFT        &kp G         &kp W     &kp D      &kp T      &none                                                        &none      &kp SEMICOLON  &kp O         &kp LS(PERIOD)  &kp R             &kp CARET             &kp NON_US_BACKSLASH
-&kp ESC    &kp NON_US_BACKSLASH  &kp ASTRK     &kp D     &kp F      &kp LS(Z)  &none     &kp LCTRL  &tog 0        &kp LGUI   &kp BACKSPACE  &none      &kp H          &kp NUMBER_3  &kp E           &kp NUMBER_4      &kp NON_US_BACKSLASH  &kp SQT
-&kt RCTRL  &kp MINUS             &kp V         &kp F     &kp B      &kp C                           &kp HOME      &kp PG_UP                            &kp LEFT       &kp DOWN      &kp UP_ARROW    &kp RIGHT         &kp SLASH             &kp RSHFT
-&mo 6      &kp LEFT_WIN          &kp LEFT_ALT  &kp LEFT  &kp RIGHT             &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &kp ENTER      &kp SPACE                 &kp UP        &kp DOWN        &kp LEFT_BRACKET  &kp RBKT              &mo 6
+&kp GRAVE  &kp N1                &kp N2        &kp N3    &kp N4     &kp N5     &trans                                                       &mo 6  &kp N6         &kp N7        &kp N8          &kp N9            &kp N0                &kp MINUS
+&kp TAB    &kp LEFT_SHIFT        &kp G         &kp W     &kp D      &kp T      &none                                                        &none  &kp SEMICOLON  &kp O         &kp LS(PERIOD)  &kp R             &kp CARET             &kp NON_US_BACKSLASH
+&kp ESC    &kp NON_US_BACKSLASH  &kp ASTRK     &kp D     &kp F      &kp LS(Z)  &none     &kp LCTRL  &tog 0        &kp LGUI   &kp BACKSPACE  &none  &kp H          &kp NUMBER_3  &kp E           &kp NUMBER_4      &kp NON_US_BACKSLASH  &kp SQT
+&kt RCTRL  &kp MINUS             &kp V         &kp F     &kp B      &kp C                           &kp HOME      &kp PG_UP                        &kp LEFT       &kp DOWN      &kp UP_ARROW    &kp RIGHT         &kp SLASH             &kp RSHFT
+&mo 6      &kp LEFT_WIN          &kp LEFT_ALT  &kp LEFT  &kp RIGHT             &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &kp ENTER      &mo 8                 &kp UP        &kp DOWN        &kp LEFT_BRACKET  &kp RBKT              &mo 6
             >;
         };
 
