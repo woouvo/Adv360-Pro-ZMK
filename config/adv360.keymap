@@ -27,29 +27,13 @@
         ng_on: ng_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp GRAVE>,
-                <&macro_release>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&to 7>;
+            bindings = <&macro_tap>, <&kp RC(RA(RS(N)))>, <&macro_tap>, <&to 7>;
         };
 
         ng_off: ng_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp GRAVE>,
-                <&macro_release>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&to 0>;
+            bindings = <&macro_tap>, <&to 0>, <&macro_tap>, <&kp RS(RA(RC(F)))>;
         };
 
         m00: macro00 {
