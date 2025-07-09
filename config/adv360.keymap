@@ -331,24 +331,6 @@
             layers = <8>;
         };
 
-        nnns {
-            bindings = <&kp U>;
-            key-positions = <23 41>;
-            layers = <7>;
-        };
-
-        qqqqq {
-            bindings = <&kp Q>;
-            key-positions = <40 41>;
-            layers = <7>;
-        };
-
-        ppqctc {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <40 41>;
-            layers = <8>;
-        };
-
         eoiaeh {
             bindings = <&kp Y>;
             key-positions = <24 42>;
@@ -358,6 +340,24 @@
         oiaee.aa {
             bindings = <&kp COMMA>;
             key-positions = <24 42>;
+            layers = <8>;
+        };
+
+        ieoioeh {
+            bindings = <&kp U>;
+            key-positions = <23 41>;
+            layers = <7>;
+        };
+
+        ioeaioe {
+            bindings = <&kp Q>;
+            key-positions = <40 41>;
+            layers = <7>;
+        };
+
+        fdg66666 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <40 41>;
             layers = <8>;
         };
     };
