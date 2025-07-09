@@ -33,7 +33,7 @@
         ng_off: ng_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&to 0>, <&macro_tap>, <&kp RS(RA(RC(F)))>;
+            bindings = <&macro_tap>, <&kp RS(RA(RC(F)))>, <&macro_tap>, <&to 0>;
         };
 
         m00: macro00 {
