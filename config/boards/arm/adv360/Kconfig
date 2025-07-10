@@ -9,17 +9,17 @@ menu "Combo options"
 
 config ZMK_COMBO_MAX_PRESSED_COMBOS
     int "Maximum number of currently pressed combos"
-    default 10
+    default 100
 
 config ZMK_COMBO_MAX_COMBOS_PER_KEY
     int "Deprecated: Max combos per key"
-    default 10
+    default 100
     help
       Deprecated: Storage for combos is now determined automatically
 
 config ZMK_COMBO_MAX_KEYS_PER_COMBO
     int "Deprecated: Max keys per combo"
-    default 10
+    default 100
     help
        Deprecated: This is now auto-calculated based on `key-positions` in devicetree
 
