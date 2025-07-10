@@ -340,6 +340,8 @@
             bindings = <&kp NUMBER_6>;
             key-positions = <40 41>;
             layers = <8>;
+            slow-release;
+            timeout-ms = <100>;
         };
     };
 
