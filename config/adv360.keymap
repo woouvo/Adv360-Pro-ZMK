@@ -246,8 +246,6 @@
             bindings = <&kp G>;
             key-positions = <53 69>;
             layers = <0>;
-            slow-release;
-            timeout-ms = <180>;
             require-prior-idle-ms = <0>;
         };
 
@@ -305,24 +303,6 @@
             layers = <4>;
         };
 
-        eo {
-            bindings = <&kp Y>;
-            key-positions = <24 42>;
-            layers = <3>;
-        };
-
-        oi {
-            bindings = <&kp COMMA>;
-            key-positions = <24 42>;
-            layers = <4>;
-        };
-
-        ie {
-            bindings = <&kp U>;
-            key-positions = <23 41>;
-            layers = <3>;
-        };
-
         sss {
             bindings = <&kp LS(B)>;
             key-positions = <23 41>;
@@ -332,7 +312,25 @@
         qqqq {
             bindings = <&kp Q>;
             key-positions = <40 41>;
-            layers = <2 3>;
+            layers = <3>;
+        };
+
+        uuu {
+            bindings = <&kp U>;
+            key-positions = <23 41>;
+            layers = <3>;
+        };
+
+        yyy {
+            bindings = <&kp Y>;
+            key-positions = <24 42>;
+            layers = <3>;
+        };
+
+        camma {
+            bindings = <&kp COMMA>;
+            key-positions = <24 42>;
+            layers = <4>;
         };
     };
 
