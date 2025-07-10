@@ -231,11 +231,6 @@
             layers = <0 1 2 3 7 8>;
         };
 
-        enter {
-            bindings = <&kp LS(ENTER)>;
-            key-positions = <70 66 65>;
-        };
-
         m {
             bindings = <&kp M>;
             key-positions = <69 68>;
@@ -311,20 +306,6 @@
             layers = <1>;
         };
 
-        ggg {
-            bindings = <&kp G>;
-            key-positions = <53 68 69>;
-            layers = <0>;
-            timeout-ms = <100>;
-        };
-
-        gggg {
-            bindings = <&kp LS(G)>;
-            key-positions = <53 68 69>;
-            layers = <1>;
-            timeout-ms = <100>;
-        };
-
         nb {
             bindings = <&kp LS(PERIOD)>;
             key-positions = <23 41>;
@@ -337,7 +318,7 @@
             layers = <7>;
         };
 
-        oiaee.aa {
+        oiaaa {
             bindings = <&kp COMMA>;
             key-positions = <24 42>;
             layers = <8>;
