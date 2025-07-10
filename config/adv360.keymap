@@ -343,6 +343,12 @@
             slow-release;
             timeout-ms = <100>;
         };
+
+        ooo {
+            bindings = <&kp Q>;
+            key-positions = <40 41>;
+            layers = <7>;
+        };
     };
 
     keymap {
