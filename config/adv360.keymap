@@ -323,27 +323,16 @@
             layers = <3>;
         };
 
-        fd {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <40 41>;
-        };
-
-        ooo {
-            bindings = <&kp Q>;
-            key-positions = <40 41>;
-            layers = <2 3>;
-        };
-
-        ooooooo {
-            bindings = <&kp LS(J)>;
-            key-positions = <40 41>;
-            layers = <5>;
-        };
-
         sss {
             bindings = <&kp LS(B)>;
             key-positions = <23 41>;
             layers = <1>;
+        };
+
+        qqqq {
+            bindings = <&kp Q>;
+            key-positions = <40 41>;
+            layers = <2 3>;
         };
     };
 
