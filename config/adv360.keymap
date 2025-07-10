@@ -387,22 +387,22 @@
         nagi {
             display-name = "nagi";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                               &mo 7     &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
-&kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &ltsst                                                               &get      &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
-&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &cicco  &kp LCTRL          &tog 0       &kp LGUI   &kp BACKSPACE     &cicccor  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
-&kt RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                   &ng_on       &kp PG_UP                              &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
-&mo 8      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4   &kp RIGHT_BRACKET  &ng_off      &kp PG_DN  &kp LEFT_BRACKET  &mo 9                    &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 8
+&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                              &mo 7     &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
+&kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &ltsst                                                              &get      &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
+&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &cicco  &kp LCTRL          &tog 0       &kp LGUI  &kp BACKSPACE     &cicccor  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
+&kt RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                   &ng_on       &kp U                                 &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
+&mo 8      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4   &kp RIGHT_BRACKET  &ng_off      &kp Q     &kp LEFT_BRACKET  &mo 9                    &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 8
             >;
         };
 
         nagi_shift {
             display-name = "nagi_shift";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2        &kp N3      &kp N4         &kp N5                &trans                                                             &mo 8  &kp N6    &kp N7    &kp N8        &kp N9            &kp N0        &kp MINUS
-&kp TAB    &kp LEFT_SHIFT  &kp NUMBER_1  &kp L       &kp SLASH      &kp T                 &biccuri                                                           &none  &kp N0    &kp X     &kp N9        &kp N5            &kp N8        &kp NON_US_BACKSLASH
-&kp ESC    &kp P           &kp N         &kp I       &kp J          &kp A                 &quest     &kp LCTRL    &tog 0        &kp LGUI   &kp BACKSPACE     &none  &kp N7    &kp K     &kp M         &kp Z             &kp NUMBER_2  &kp SQT
-&kt RCTRL  &kp MINUS       &kp V         &kp LS(N0)  &kp LS(COMMA)  &kp NON_US_BACKSLASH                          &kp HOME      &kp PG_UP                           &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT         &kp SLASH     &kp RSHFT
-&mo 8      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT    &kp RIGHT                            &kp ENTER  &kp AT_SIGN  &nihon        &kp PG_DN  &kp LEFT_BRACKET  &mo 4            &kp UP    &kp DOWN      &kp LEFT_BRACKET  &kp RBKT      &mo 8
+&kp GRAVE  &kp N1          &kp N2        &kp N3      &kp N4         &kp N5                &trans                                                                &mo 8  &kp N6    &kp N7    &kp N8        &kp N9            &kp N0        &kp MINUS
+&kp TAB    &kp LEFT_SHIFT  &kp NUMBER_1  &kp L       &kp SLASH      &kp T                 &biccuri                                                              &none  &kp N0    &kp X     &kp N9        &kp N5            &kp N8        &kp NON_US_BACKSLASH
+&kp ESC    &kp P           &kp N         &kp I       &kp J          &kp A                 &quest     &kp LCTRL    &tog 0        &kp LGUI      &kp BACKSPACE     &none  &kp N7    &kp K     &kp M         &kp Z             &kp NUMBER_2  &kp SQT
+&kt RCTRL  &kp MINUS       &kp V         &kp LS(N0)  &kp LS(COMMA)  &kp NON_US_BACKSLASH                          &kp HOME      &kp PG_UP                              &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT         &kp SLASH     &kp RSHFT
+&mo 8      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT    &kp RIGHT                            &kp ENTER  &kp AT_SIGN  &nihon        &kp NUMBER_6  &kp LEFT_BRACKET  &mo 4            &kp UP    &kp DOWN      &kp LEFT_BRACKET  &kp RBKT      &mo 8
             >;
         };
 
