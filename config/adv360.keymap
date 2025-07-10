@@ -332,13 +332,12 @@
         fd {
             bindings = <&kp NUMBER_6>;
             key-positions = <40 41>;
-            layers = <4>;
         };
 
         ooo {
             bindings = <&kp Q>;
             key-positions = <40 41>;
-            layers = <3>;
+            layers = <2 3>;
         };
 
         ooooooo {
