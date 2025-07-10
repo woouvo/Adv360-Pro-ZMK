@@ -340,6 +340,12 @@
             key-positions = <40 41>;
             layers = <3>;
         };
+
+        ooooooo {
+            bindings = <&kp LS(J)>;
+            key-positions = <40 41>;
+            layers = <5>;
+        };
     };
 
     keymap {
