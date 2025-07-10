@@ -263,12 +263,6 @@
             layers = <0>;
         };
 
-        bb {
-            bindings = <&kp LS(B)>;
-            key-positions = <23 41>;
-            layers = <1>;
-        };
-
         j {
             bindings = <&kp K>;
             key-positions = <24 42>;
@@ -344,6 +338,12 @@
             bindings = <&kp LS(J)>;
             key-positions = <40 41>;
             layers = <5>;
+        };
+
+        sss {
+            bindings = <&kp LS(B)>;
+            key-positions = <23 41>;
+            layers = <1>;
         };
     };
 
