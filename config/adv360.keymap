@@ -316,9 +316,9 @@
         };
 
         uuu {
-            bindings = <&kp U>;
+            bindings = <&kp NUMBER_6>;
             key-positions = <41 40>;
-            layers = <3>;
+            layers = <4>;
         };
 
         yyy {
@@ -331,6 +331,12 @@
             bindings = <&kp COMMA>;
             key-positions = <24 42>;
             layers = <4>;
+        };
+
+        o3 {
+            bindings = <&kp U>;
+            key-positions = <41 23>;
+            layers = <3>;
         };
     };
 
