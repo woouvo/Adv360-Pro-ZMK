@@ -275,7 +275,7 @@
 
         q {
             bindings = <&kp J>;
-            key-positions = <40 22>;
+            key-positions = <40 41>;
             layers = <0>;
         };
 
@@ -293,13 +293,13 @@
 
         qq {
             bindings = <&kp LS(J)>;
-            key-positions = <40 22>;
+            key-positions = <40 41>;
             layers = <1>;
         };
 
         nb {
             bindings = <&kp LS(PERIOD)>;
-            key-positions = <23 41>;
+            key-positions = <41 23>;
             layers = <4>;
         };
 
@@ -311,13 +311,13 @@
 
         qqqq {
             bindings = <&kp Q>;
-            key-positions = <40 22>;
+            key-positions = <40 41>;
             layers = <3>;
         };
 
         uuu {
             bindings = <&kp U>;
-            key-positions = <23 41>;
+            key-positions = <41 40>;
             layers = <3>;
         };
 
