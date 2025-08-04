@@ -368,11 +368,11 @@
         alpha {
             display-name = "alpha";
             bindings = <
-&trans   &kp N1               &kp N2               &kp N3             &kp N4     &kp N5         &tog 6                                                             &mo 9               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
-&kp TAB  &kp HASH             &kp LESS_THAN        &kp GREATER_THAN   &kp CARET  &kp DOLLAR     &kp C_AC_COPY                                                      &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
-&kp ESC  &kp COLON            &kp SEMICOLON        &kp DOUBLE_QUOTES  &kp SQT    &kp PIPE       &kp C_AC_PASTE  &kp DELETE     &kp LALT      &kp LGUI   &kp RCTRL  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
-&mo 0    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INT2           &trans     &kp AMPERSAND                                 &mo 0         &kp PG_UP                                 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
-&mo 9    &kp TILDE            &kp CAPS             &kp LEFT           &kp RIGHT                 &kp ENTER       &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER  &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 9
+&trans   &kp N1               &kp N2               &kp N3             &kp N4     &kp N5         &tog 6                                                                 &mo 9               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
+&kp TAB  &kp HASH             &kp LESS_THAN        &kp GREATER_THAN   &kp CARET  &kp DOLLAR     &kp C_AC_COPY                                                          &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
+&kp ESC  &kp COLON            &kp SEMICOLON        &kp DOUBLE_QUOTES  &kp SQT    &kp PIPE       &kp C_AC_PASTE  &kp DELETE     &kp LALT      &kp LGUI   &kp BACKSPACE  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
+&mo 0    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INT2           &trans     &kp AMPERSAND                                 &mo 0         &kp PG_UP                                     &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
+&mo 9    &kp TILDE            &kp CAPS             &kp LEFT           &kp RIGHT                 &kp ENTER       &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER      &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 9
             >;
         };
 
