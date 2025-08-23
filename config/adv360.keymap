@@ -360,7 +360,7 @@
 &trans   &kp N1               &kp N2               &kp N3             &kp N4     &kp N5         &tog 6                                                                 &mo 9               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
 &kp TAB  &kp HASH             &kp LESS_THAN        &kp GREATER_THAN   &kp CARET  &kp DOLLAR     &kp C_AC_COPY                                                          &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
 &kp ESC  &kp COLON            &kp SEMICOLON        &kp DOUBLE_QUOTES  &kp SQT    &kp PIPE       &kp C_AC_PASTE  &kp DELETE     &kp LALT      &kp LGUI   &kp BACKSPACE  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
-&mo 0    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INT2           &trans     &kp AMPERSAND                                 &mo 0         &kp PG_UP                                     &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
+&mo 0    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INT2           &kp AT     &kp AMPERSAND                                 &mo 0         &kp PG_UP                                     &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
 &mo 9    &kp TILDE            &kp CAPS             &kp LEFT           &kp RIGHT                 &kp ENTER       &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER      &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 9
             >;
         };
@@ -368,11 +368,11 @@
         shift {
             display-name = "Shift";
             bindings = <
-&kp NON_US_HASH  &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 6                                                                               &mo 9                &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
-&kp TAB          &kp TILDE     &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                     &kp RIGHT_BRACKET    &kp LS(V)           &kp LS(W)         &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
-&kp ESC          &kp LS(A)     &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp BACKSPACE  &kp LS(RIGHT_BRACE)  &kp LS(L)           &kp LS(T)         &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
-&kp LCTRL        &kp PIPE      &kp UNDERSCORE        &kp PERCENT    &kp DOLLAR     &kp QMARK                                          &kp LS(LEFT_COMMAND)      &kp LS(D)                                      &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN)     &kp LS(RIGHT)  &kp LS(Q)  &kp LS(RIGHT)
-&mo 9            &kp LEFT_WIN  &kp LEFT_ALT          &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)      &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 9
+&kp NON_US_HASH  &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 6                                                                               &mo 9                &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
+&kp TAB          &kp TILDE         &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                     &kp RIGHT_BRACKET    &kp LS(V)           &kp LS(W)         &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
+&kp LS(ESC)      &kp LS(A)         &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp BACKSPACE  &kp LS(RIGHT_BRACE)  &kp LS(L)           &kp LS(T)         &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
+&kp LS(LCTRL)    &kp PIPE          &kp UNDERSCORE        &kp PERCENT    &kp DOLLAR     &kp QMARK                                          &kp LS(LEFT_COMMAND)      &kp LS(D)                                      &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN)     &kp LS(RIGHT)  &kp LS(Q)  &kp LS(RIGHT)
+&mo 9            &kp LS(LEFT_WIN)  &kp LS(LEFT_ALT)      &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)      &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 9
             >;
         };
 
