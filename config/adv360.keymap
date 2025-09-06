@@ -346,11 +346,11 @@
         default_layer {
             display-name = "Defalt";
             bindings = <
-&nihon            &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 6                                                            &mo 8                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
-&kp TAB           &kp GRAVE     &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                                     &kp GREATER_THAN       &kp V         &kp W     &kp Z         &kp P          &kp Q      &kp UP_ARROW
-&kp ESC           &kp A         &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 9        &kp G  &kp BACKSPACE  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
-&kp LEFT_CONTROL  &kp COLON     &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &ng_on       &kp D                                        &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp END    &kp RIGHT
-&mo 7             &kp LEFT_WIN  &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &mo 2                 &kp U    &ng_off      &kp F  &kp S          &mo 1                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 2
+&nihon            &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 6                                                              &mo 8                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
+&kp TAB           &kp GRAVE     &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                                       &kp GREATER_THAN       &kp V         &kp W     &kp Z         &kp P          &kp Q      &kp UP_ARROW
+&kp ESC           &kp A         &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 9        &kp DEL  &kp BACKSPACE  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
+&kp LEFT_CONTROL  &kp COLON     &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &ng_on       &kp D                                          &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp END    &kp RIGHT
+&mo 7             &kp LEFT_WIN  &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &mo 2                 &kp U    &ng_off      &kp F    &kp S          &mo 1                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 2
             >;
         };
 
