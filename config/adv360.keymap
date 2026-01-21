@@ -227,7 +227,7 @@
         space_combo {
             bindings = <&kp SPACE>;
             key-positions = <69 70>;
-            layers = <0 2 1 6 3 4>;
+            layers = <0 2 1 7 3 4>;
         };
 
         m {
@@ -346,55 +346,65 @@
         default_layer {
             display-name = "Defalt";
             bindings = <
-&nihon            &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 6                                                              &mo 8                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
+&nihon            &kp NUMBER_1  &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4  &kp N5           &tog 7                                                              &mo 9                  &kp NUMBER_6  &kp N7    &kp N8        &kp N9         &kp N0     &kp LEFT
 &kp TAB           &kp GRAVE     &kp NON_US_BACKSLASH  &kp H         &kp Y         &kp SLASH        &kp LESS_THAN                                                       &kp GREATER_THAN       &kp V         &kp W     &kp Z         &kp P          &kp Q      &kp UP_ARROW
-&kp ESC           &kp A         &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 9        &kp DEL  &kp BACKSPACE  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
+&kp ESC           &kp A         &kp I                 &kp O         &kp E         &kp PERIOD       &kp LEFT_PARENTHESIS  &kp TAB  &to 10       &kp DEL  &kp BACKSPACE  &kp RIGHT_PARENTHESIS  &kp L         &kp T     &kp C         &kp N          &kp R      &kp DOWN
 &kp LEFT_CONTROL  &kp COLON     &kp PLUS              &kp EQUAL     &kp MINUS     &kp EXCLAMATION                                 &ng_on       &kp D                                          &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT      &kp END    &kp RIGHT
-&mo 7             &kp LEFT_WIN  &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &mo 2                 &kp U    &ng_off      &kp F    &kp S          &mo 1                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 2
+&mo 8             &kp LEFT_WIN  &kp LEFT_ALT          &kp MINUS     &kp SLASH                      &mo 2                 &kp U    &ng_off      &kp F    &kp S          &mo 1                                &kp HOME  &kp TILDE     &kp RIGHT_ALT  &kp RCTRL  &mo 2
             >;
         };
 
         alpha {
             display-name = "alpha";
             bindings = <
-&trans   &kp N1               &kp N2               &kp N3             &kp N4     &kp N5         &tog 6                                                                 &mo 9               &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
+&trans   &kp N1               &kp N2               &kp N3             &kp N4     &kp N5         &tog 7                                                                 &mo 10              &kp N6     &kp EQUAL     &kp SLASH     &kp N9        &kp N0             &kp EQUAL
 &kp TAB  &kp HASH             &kp LESS_THAN        &kp GREATER_THAN   &kp CARET  &kp DOLLAR     &kp C_AC_COPY                                                          &none               &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp ASTERISK       &kp SLASH
 &kp ESC  &kp COLON            &kp SEMICOLON        &kp DOUBLE_QUOTES  &kp SQT    &kp PIPE       &kp C_AC_PASTE  &kp DELETE     &kp LALT      &kp LGUI   &kp BACKSPACE  &kp RS(UNDERSCORE)  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS          &kp NON_US_BACKSLASH
 &mo 0    &kp INTERNATIONAL_4  &kp INTERNATIONAL_5  &kp INT2           &kp AT     &kp AMPERSAND                                 &mo 0         &kp PG_UP                                     &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS           &mo 0
-&mo 9    &kp TILDE            &kp CAPS             &kp LEFT           &kp RIGHT                 &kp ENTER       &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER      &kp SPACE                      &kp N0        &m00          &kp PERIOD    &kp RIGHT_BRACKET  &mo 9
+&mo 10   &kp TILDE            &kp CAPS             &kp LEFT           &kp RIGHT                 &kp ENTER       &kp BACKSPACE  &to 0         &kp PG_DN  &kp ENTER      &kp SPACE                      &kp N0        &kp N0        &kp PERIOD    &kp RIGHT_BRACKET  &mo 10
             >;
         };
 
         shift {
             display-name = "Shift";
             bindings = <
-&kp NON_US_HASH  &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 6                                                                               &mo 9                &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
+&kp NON_US_HASH  &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3   &kp LESS_THAN  &kp GREATER_THAN  &tog 7                                                                               &mo 10               &kp LEFT_BRACE      &kp RIGHT_BRACE   &kp N8           &kp N9         &kp N0     &kp LS(LEFT)
 &kp TAB          &kp TILDE         &kp LS(SINGLE_QUOTE)  &kp LS(H)      &kp LS(Y)      &kp ASTERISK      &kp LEFT_BRACKET                                                                     &kp RIGHT_BRACKET    &kp LS(V)           &kp LS(W)         &kp LS(Z)        &kp LS(P)      &kp LS(Q)  &kp LS(UP_ARROW)
 &kp LS(ESC)      &kp LS(A)         &kp LS(I)             &kp LS(O)      &kp LS(E)      &kp COMMA         &kp LS(LEFT_BRACE)  &kp LS(TAB)  &kp LCTRL                 &kp LS(G)  &kp BACKSPACE  &kp LS(RIGHT_BRACE)  &kp LS(L)           &kp LS(T)         &kp LS(C)        &kp LS(N)      &kp LS(R)  &kp LS(DOWN)
 &kp LS(LCTRL)    &kp PIPE          &kp UNDERSCORE        &kp PERCENT    &kp DOLLAR     &kp QMARK                                          &kp LS(LEFT_COMMAND)      &kp LS(D)                                      &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN)     &kp LS(RIGHT)  &kp LS(Q)  &kp LS(RIGHT)
-&mo 9            &kp LS(LEFT_WIN)  &kp LS(LEFT_ALT)      &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)      &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 9
+&mo 10           &kp LS(LEFT_WIN)  &kp LS(LEFT_ALT)      &kp AMPERSAND  &kp CARET                        &kp LS(BACKSPACE)   &kp LS(U)    &to 0                     &kp LS(F)  &kp LS(S)      &kp LS(ENTER)                            &kp LS(X)         &kp LS(PERCENT)  &kp RIGHT_ALT  &kp RCTRL  &mo 10
             >;
         };
 
         nagi {
             display-name = "nagi";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                                       &mo 8   &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
+&kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                                       &mo 9   &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
 &kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &kp F6                                                                       &kp F7  &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
 &kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &none   &kp TAB            &tog 0       &kp LGUI           &kp BACKSPACE     &none   &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
 &kp RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                   &ng_on       &kp LS(LA(LC(U)))                            &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
-&mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4   &kp RIGHT_BRACKET  &ng_off      &kp LS(LA(LC(D)))  &kp LEFT_BRACKET  &mo 4                  &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 9
+&mo 10     &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4   &kp RIGHT_BRACKET  &ng_off      &kp LS(LA(LC(D)))  &kp LEFT_BRACKET  &mo 5                  &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 10
             >;
         };
 
-        nagi_shift {
+        nagi_shiftl {
             display-name = "nagi_shift";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2        &kp N3      &kp N4         &kp N5                &trans                                                                &mo 9          &kp N6    &kp N7    &kp N8        &kp N9            &kp N0        &kp MINUS
+&kp GRAVE  &kp N1          &kp N2        &kp N3      &kp N4         &kp N5                &trans                                                                &mo 10         &kp N6    &kp N7    &kp N8        &kp N9            &kp N0        &kp MINUS
 &kp TAB    &kp LEFT_SHIFT  &kp NUMBER_1  &kp L       &kp SLASH      &kp T                 &none                                                                 &none          &kp N0    &kp X     &kp N9        &kp N5            &kp N8        &kp NON_US_BACKSLASH
 &kp ESC    &kp P           &kp N         &kp I       &kp J          &kp A                 &none      &kp TAB      &tog 0        &kp LGUI      &kp BACKSPACE     &none          &kp N7    &kp K     &kp M         &kp Z             &kp NUMBER_2  &kp SQT
 &kp RCTRL  &kp MINUS       &kp V         &kp LS(N0)  &kp LS(COMMA)  &kp NON_US_BACKSLASH                          &kp HOME      &kp PG_UP                                      &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT         &kp SLASH     &kp RSHFT
-&mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT    &kp RIGHT                            &kp ENTER  &kp AT_SIGN  &nihon        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LS(ENTER)            &kp UP    &kp DOWN      &kp LEFT_BRACKET  &kp RBKT      &mo 9
+&mo 10     &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT    &kp RIGHT                            &kp ENTER  &kp AT_SIGN  &nihon        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LS(ENTER)            &kp UP    &kp DOWN      &kp LEFT_BRACKET  &kp RBKT      &mo 10
+            >;
+        };
+
+        nagi_shiftr {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans           &trans           &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans           &trans           &trans  &trans  &trans
             >;
         };
 
@@ -411,18 +421,18 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 9      &kp N6  &kp N7  &kp N8     &kp N9            &kp N0         &kp MINUS
+&kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 10     &kp N6  &kp N7  &kp N8     &kp N9            &kp N0         &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O             &kp P          &kp NON_US_BACKSLASH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &tog 0        &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L             &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp PERIOD        &kp SLASH      &kp RSHFT
-&mo 9      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 9
+&mo 10     &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &nihon        &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LEFT_BRACKET  &kp RBKT       &mo 10
             >;
         };
 
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2      &kp F3  &kp F4  &kp F5  &kp F6  &tog 6                                      &mo 9   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2      &kp F3  &kp F4  &kp F5  &kp F6  &tog 7                                      &mo 10  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &caps_word  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans      &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans      &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
@@ -448,16 +458,6 @@
 &trans  &msc SCRL_LEFT  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans          &trans  &trans      &trans         &mkp MCLK  &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mmv MOVE_X(600)  &trans
 &trans  &trans          &trans          &trans        &trans          &trans                                   &trans      &kp PAGE_UP                          &trans          &none           &trans        &trans           &trans            &trans
 &trans  &trans          &trans          &trans        &trans                           &kp LEFT_SHIFT  &none   &to 0       &kp PAGE_DOWN  &mkp LCLK  &mkp RCLK                  &trans          &trans        &trans           &trans            &trans
-            >;
-        };
-
-        layer_12 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
