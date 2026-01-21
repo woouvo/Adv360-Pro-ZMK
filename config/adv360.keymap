@@ -227,7 +227,7 @@
         space_combo {
             bindings = <&kp SPACE>;
             key-positions = <69 70>;
-            layers = <0 2 1 6 3 4 5>;
+            layers = <0 2 1 6 3 4>;
         };
 
         m {
@@ -383,7 +383,7 @@
 &kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &kp F6                                                                                  &kp F7             &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
 &kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &kp LS(RC(RA(A)))  &kp TAB            &tog 0       &kp LGUI           &kp BACKSPACE     &kp LS(LA(RC(B)))  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
 &kp RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                              &ng_on       &kp LS(LA(LC(U)))                                       &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
-&mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4              &kp RIGHT_BRACKET  &ng_off      &kp LS(LA(LC(D)))  &kp LEFT_BRACKET  &mo 5                             &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 9
+&mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4              &kp RIGHT_BRACKET  &ng_off      &kp LS(LA(LC(D)))  &kp LEFT_BRACKET  &mo 0                             &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 9
             >;
         };
 
@@ -399,15 +399,14 @@
         };
 
         nagi_shiftr {
+            display-name = "nagi_shift";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans           &trans           &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_0  &trans           &trans  &trans
+&kp GRAVE  &kp N1          &kp N2        &kp N3      &kp N4         &kp N5                &trans                                                                     &mo 9          &kp N6    &kp N7           &kp N8           &kp N9            &kp N0        &kp MINUS
+&kp TAB    &kp LEFT_SHIFT  &kp NUMBER_1  &kp L       &kp SLASH      &kp T                 &none                                                                      &none          &kp N0    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp N8        &kp NON_US_BACKSLASH
+&kp ESC    &kp P           &kp N         &kp I       &kp J          &kp A                 &none      &kp TAB      &tog 0        &kp LGUI           &kp BACKSPACE     &none          &kp N7    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp NUMBER_2  &kp SQT
+&kp RCTRL  &kp MINUS       &kp V         &kp LS(N0)  &kp LS(COMMA)  &kp NON_US_BACKSLASH                          &kp HOME      &kp LS(LA(LC(A)))                                   &kp LEFT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp SLASH     &kp RSHFT
+&mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT    &kp RIGHT                            &kp ENTER  &kp AT_SIGN  &nihon        &kp LS(LA(LC(B)))  &kp LEFT_BRACKET  &kp LS(ENTER)            &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp LEFT_BRACKET  &kp RBKT      &mo 9
             >;
-
-            label = "nagi_shift";
         };
 
         keypad {
