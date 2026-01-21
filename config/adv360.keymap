@@ -227,7 +227,7 @@
         space_combo {
             bindings = <&kp SPACE>;
             key-positions = <69 70>;
-            layers = <0 2 1 6 3 4>;
+            layers = <0 2 1 6 3 4 5>;
         };
 
         m {
@@ -381,7 +381,7 @@
             bindings = <
 &kp GRAVE  &kp N1          &kp N2        &kp N3    &kp N4     &kp N5       &trans                                                                                  &mo 8              &kp N6         &kp N7        &kp N8        &kp N9            &kp N0          &kp MINUS
 &kp TAB    &kp LEFT_SHIFT  &kp G         &kp W     &kp D      &kp AT_SIGN  &kp F6                                                                                  &kp F7             &kp SEMICOLON  &kp O         &kp PERIOD    &kp R             &kp EQUAL       &kp NON_US_BACKSLASH
-&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &kp LS(RC(RA(A)))  &kp TAB            &tog 0       &kp LGUI           &kp BACKSPACE     &kp LS(LA(RC(B)))  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
+&kp ESC    &kp GRAVE       &kp SQT       &kp S     &kp T      &kp LS(Z)    &kp LS(RC(RA(A)))  &kp TAB            &tog 0       &kp LGUI           &kp BACKSPACE     &kp LS(RC(RA(B)))  &kp H          &kp NUMBER_3  &kp E         &kp NUMBER_4      &kp UNDERSCORE  &kp SQT
 &kp RCTRL  &kp MINUS       &kp V         &kp F     &kp B      &kp C                                              &ng_on       &kp LS(LA(LC(U)))                                       &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT         &kp SLASH       &kp RSHFT
 &mo 9      &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT  &kp RIGHT               &mo 4              &kp RIGHT_BRACKET  &ng_off      &kp LS(LA(LC(D)))  &kp LEFT_BRACKET  &mo 0                             &kp UP        &kp DOWN      &kp LEFT_BRACKET  &kp RBKT        &mo 9
             >;
