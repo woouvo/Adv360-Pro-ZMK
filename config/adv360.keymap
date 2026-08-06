@@ -26,13 +26,13 @@
         ng_on: ng_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp F13>, <&macro_tap>, <&to 3>;
+            bindings = <&macro_tap>, <&kp LANGUAGE_1>, <&macro_tap>, <&to 3>;
         };
 
         ng_off: ng_off {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp F14>, <&macro_tap>, <&to 0>;
+            bindings = <&macro_tap>, <&kp LANGUAGE_2>, <&macro_tap>, <&to 0>;
         };
 
         as: as {
