@@ -35,13 +35,6 @@
             bindings = <&macro_tap>, <&kp F14>, <&macro_tap>, <&to 0>;
         };
 
-        m00: macro00 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N0 &kp N0>;
-            label = "put00";
-        };
-
         as: as {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
