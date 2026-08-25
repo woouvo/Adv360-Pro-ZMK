@@ -35,32 +35,6 @@
             bindings = <&macro_tap>, <&kp LC(F2)>, <&macro_tap>, <&to 0>;
         };
 
-        as: as {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_tap>,
-                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
-
-            label = "AS";
-        };
-
-        test_t: test_t {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_tap>,
-                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &macro_param_1to2 &as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
-
-            label = "TEST_T";
-        };
-
         nihon: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
