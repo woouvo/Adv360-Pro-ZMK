@@ -180,20 +180,6 @@
 
             label = "BICCURI";
         };
-
-        shift: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&mo 2>,
-                <&macro_release>,
-                <&macro_release>;
-
-            label = "NEW_MACRO";
-        };
     };
 
     combos {
